@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Goweb</title>
-</head>
-<body>
-  <h1>Home page</h1>
-</body>
-</html>
+{{ template "base" . }}
+
+{{ define "content" }}
+  <h1>Welcome in homepage!</h1>
+{{ end }}
